@@ -49,15 +49,6 @@ public class MatchActivity extends AppCompatActivity {
 
             Bitmap bm2 = (Bitmap) extras.get("away_logo");
             awayImage.setImageBitmap(bm2);
-
-
-//            Bitmap bmp = extra.getParcelable("homeImg");
-//            Bitmap bmp2 = extra.getParcelable("awayImg");
-//
-//            homeTeamText.setText(extras.getString(MainActivity.HOMETEAM_KEY));
-//            awayTeamText.setText(extras.getString(MainActivity.AWAYTEAM_KEY));
-//            avatar1.setImageBitmap(bmp);
-//            avatar2.setImageBitmap(bmp2);
         }
     }
 
