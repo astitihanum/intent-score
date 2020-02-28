@@ -36,7 +36,6 @@ public class MatchActivity extends AppCompatActivity {
         homeImage = findViewById(R.id.home_logo);
         awayImage = findViewById(R.id.away_logo);
 
-
         Bundle extras = getIntent().getExtras();
         if(extras != null){
             String home = extras.getString(MainActivity.HOMETEAM_KEY);

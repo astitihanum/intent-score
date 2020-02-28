@@ -20,9 +20,6 @@ import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
-
     public static final String HOMETEAM_KEY = "hometeam";
     public static final String AWAYTEAM_KEY = "awayteam";
     public static final String HLOGO_KEY = "home_logo";
